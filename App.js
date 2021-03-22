@@ -28,9 +28,9 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 
-import auth from "firebase/auth";
+import "firebase/auth";
 import "firebase/firestore";
-import "firebase/analytics;";
+import "firebase/analytics";
 /*=====================FIRE========================== */
 
 import HomeScreen from "./app/Screens/HomeScreen.js";
