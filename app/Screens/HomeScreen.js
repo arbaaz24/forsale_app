@@ -1,11 +1,10 @@
 import React from "react";
 import { ImageBackground, Button, StyleSheet } from "react-native";
-
+import * as firebase from "firebase";
 import colors from "../config/colors";
 import ViewImageScreen from "./ViewImageScreen";
 
 export default HomeScreen = ({ navigation }) => {
-  let msg1 = "i ol you";
   return (
     <ImageBackground
       resizeMode={"contain"}
