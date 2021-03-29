@@ -8,6 +8,9 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@firebase/app": "^0.6.17",
+    "@firebase/auth": "^0.16.4",
+    "@firebase/firestore": "^2.2.1",
     "@react-native-community/masked-view": "0.1.10",
     "@react-navigation/native": "^5.9.3",
     "@react-navigation/stack": "^5.14.3",

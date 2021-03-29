@@ -18,12 +18,13 @@ const styles = StyleSheet.create({
   button: {
     backgroundColor: colors.primary,
     borderRadius: 25,
-    padding: 15,
+    padding: 10,
     width: "100%",
+    justifyContent: "center",
   },
   text: {
     fontWeight: "600",
-    fontSize: 18,
+    fontSize: 14,
     textTransform: "uppercase",
   },
 });

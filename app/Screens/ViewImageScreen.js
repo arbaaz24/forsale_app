@@ -7,25 +7,29 @@ import AppText from "../components/AppText";
 export default ViewImageScreen = ({ navigation, route }) => {
   return (
     <View style={styles.container}>
-      <View style={{ borderRadius: 20, overflow: "hidden", margin: 10 }}>
-        <Image
-          resizeMode="contain"
-          style={styles.image}
-          source={{ uri: "https://picsum.photos/300/150" }}
-        />
-        <AppText>THIS is an awesome image! </AppText>
-        <AppText>$500 </AppText>
-      </View>
+      <Image
+        resizeMode="contain"
+        style={styles.image}
+        source={{ uri: "https://picsum.photos/1800/800" }}
+      />
+      <AppText>THIS is an awesome image! </AppText>
+      <Image
+        resizeMode="contain"
+        style={styles.image}
+        source={{ uri: "https://picsum.photos/1900/1000" }}
+      />
+      <AppText>$500 </AppText>
     </View>
   );
 };
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 5,
+    padding: 7,
+    justifyContent: "space-evenly",
   },
   image: {
     width: "100%",
-    height: "45%",
+    height: "40%",
   },
 });
